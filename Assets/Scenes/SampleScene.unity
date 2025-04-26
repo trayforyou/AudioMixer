@@ -282,19 +282,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11275523}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11275526}
-        m_TargetAssemblyTypeName: SamplePlayer, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &11275523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 11275525}
+  _button: {fileID: 11275522}
 --- !u!1 &15821413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,19 +1532,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 698119842}
-        m_TargetAssemblyTypeName: VolumeChanger, Assembly-CSharp
-        m_MethodName: ChangeAllVolume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &698119842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1569,6 +1546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioChannel: {fileID: -2038724381801921819, guid: 3b7c2b411159b4649a29ff7a1a02295c, type: 2}
+  _slider: {fileID: 698119841}
 --- !u!1 &728923663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,19 +1638,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 728923666}
-        m_TargetAssemblyTypeName: VolumeChanger, Assembly-CSharp
-        m_MethodName: ChangeAllVolume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &728923666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1686,6 +1652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioChannel: {fileID: -4695504605565686690, guid: 3b7c2b411159b4649a29ff7a1a02295c, type: 2}
+  _slider: {fileID: 728923665}
 --- !u!1 &749671077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,19 +1780,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1008042146}
-        m_TargetAssemblyTypeName: VolumeChanger, Assembly-CSharp
-        m_MethodName: ChangeAllVolume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1008042146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1839,6 +1794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioChannel: {fileID: 24300002, guid: 3b7c2b411159b4649a29ff7a1a02295c, type: 2}
+  _slider: {fileID: 1008042145}
 --- !u!1 &1041471745
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,19 +1880,7 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1041471748}
-        m_TargetAssemblyTypeName: SwitcherSound, Assembly-CSharp
-        m_MethodName: ChangeActiveState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   m_IsOn: 1
 --- !u!114 &1041471748
 MonoBehaviour:
@@ -1951,6 +1895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioChannel: {fileID: 24300002, guid: 3b7c2b411159b4649a29ff7a1a02295c, type: 2}
+  _toggle: {fileID: 1041471747}
 --- !u!1 &1155367428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2886,19 +2831,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1788463964}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1788463967}
-        m_TargetAssemblyTypeName: SamplePlayer, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1788463964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3046,6 +2979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1788463966}
+  _button: {fileID: 1788463963}
 --- !u!1 &1818664057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,19 +3336,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2029394253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2029394256}
-        m_TargetAssemblyTypeName: SamplePlayer, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2029394253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3562,6 +3484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 2029394255}
+  _button: {fileID: 2029394252}
 --- !u!1 &2074502049
 GameObject:
   m_ObjectHideFlags: 0
