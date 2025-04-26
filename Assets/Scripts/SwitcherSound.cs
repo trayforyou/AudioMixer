@@ -16,7 +16,7 @@ public class SwitcherSound : MonoBehaviour
     private void OnDisable() =>
         _toggle.onValueChanged.RemoveListener(ChangeActiveState);
 
-    public void ChangeActiveState(bool state)
+    private void ChangeActiveState(bool state)
     {
         if (state)
             _audioChannel.audioMixer.SetFloat(_audioChannel.name, _maxVolumeValue);

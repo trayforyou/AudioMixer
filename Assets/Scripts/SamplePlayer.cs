@@ -11,7 +11,7 @@ public class SamplePlayer : MonoBehaviour
 
     private void OnDisable() =>
         _button.onClick.RemoveListener(Play);
-    
-    public void Play() =>
+
+    private void Play() =>
         _audioSource.Play();
 }

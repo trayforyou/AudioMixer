@@ -13,6 +13,6 @@ public class VolumeChanger : MonoBehaviour
     private void OnDisable() =>
         _slider.onValueChanged.RemoveListener(ChangeAllVolume);
 
-    public void ChangeAllVolume(float volume) =>
+    private void ChangeAllVolume(float volume) =>
         _audioChannel.audioMixer.SetFloat(_audioChannel.name, Mathf.Log10(volume) * 20);
 }
